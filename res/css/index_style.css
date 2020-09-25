@@ -1,0 +1,22 @@
+#search{
+    position: fixed;
+    left: 30%;
+    top:0%;
+    width: 40%
+}
+
+.content{
+    position:relative;
+    left:20%;
+    top:30px;
+    width: 60%;
+    background-color: #FFFFFF
+}
+.post{
+    position:relative;
+    left:10%;
+    top:30px;
+    width: 80%;
+    background-color: #FFFFFF;
+    border: 1px solid lightgray
+}
