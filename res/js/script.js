@@ -1,3 +1,3 @@
 function pageRedirect() {
-    window.location = "/index.html"
+    location.href='index.html'
   }    

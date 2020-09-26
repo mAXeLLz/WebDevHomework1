@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-    <title>YourTube</title>
+    <title>postIt</title>
     <link rel="stylesheet" href="res/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,9 +13,11 @@
             <div class="form">
                 <img src="res/images/logo.png" alt="logo" class="logo"></img>
                 <div class="welcome">
-                    <h3>Welcome to Postit!</h3>
+                    <h3>Welcome to postIt!</h3>
                 </div>
-                <h3>Please log in</h3>
+                <a href="#">Create an Account</a>
+                <p>Or</p>
+                <h3>Please Log In</h3>
               <form class="register-form">
                 <input type="text" placeholder="name"/>
                 <input type="password" placeholder="password"/>
@@ -24,12 +26,13 @@
                 <p class="message">Already registered? <a href="#">Sign In</a></p>
               </form>
               <form class="login-form">
-                <input type="text" placeholder="username"/>
-                <input type="password" placeholder="password"/>
+                <input class="credentials" type="text" placeholder="Email"/>
+                <input class="credentials" type="password" placeholder="Password"><br /></input>
+
                 <a target="index.html">
-                    <button>login</button>
+                  <button onclick="pageRedirect()" type="button">Log In</button>
                 </a>
-                <p class="message">Not registered? <a href="#">Create an account</a></p>
+                <p class="message"></p><a href="#">Forgot password? </a></p>
               </form>
             </div>
           </div>
